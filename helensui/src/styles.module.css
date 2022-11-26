@@ -1,0 +1,53 @@
+/* add css module styles here (optional) */
+
+.test {
+  margin: 2em;
+  padding: 0.5em;
+  border: 2px solid #000;
+  font-size: 2em;
+  text-align: center;
+}
+
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+    font-size: 24px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 2rem auto;
+cursor: pointer;
+
+}
+
+.button:hover {
+  transform: scale(1.2);
+  transition: 0.8s ease-in-out;
+}
+
+.primary {
+  background-color: #0a5380;
+}
+
+.default {
+  background-color: #dedede;
+  color: #000;
+}
+
+.dashed {
+  background-color: #0a5380;
+  border: dashed;
+}
+
+.text {
+  background-color: #181818;
+}
+
+.link {
+  text-decoration: underline;
+  background-color: #0a5380;
+}

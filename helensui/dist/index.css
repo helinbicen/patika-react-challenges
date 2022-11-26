@@ -1,0 +1,53 @@
+/* add css module styles here (optional) */
+
+._3ybTi {
+  margin: 2em;
+  padding: 0.5em;
+  border: 2px solid #000;
+  font-size: 2em;
+  text-align: center;
+}
+
+
+._2hTXI {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+    font-size: 24px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 2rem auto;
+cursor: pointer;
+
+}
+
+._2hTXI:hover {
+  transform: scale(1.2);
+  transition: 0.8s ease-in-out;
+}
+
+._3ljpl {
+  background-color: #0a5380;
+}
+
+._3UK6o {
+  background-color: #dedede;
+  color: #000;
+}
+
+._27xYC {
+  background-color: #0a5380;
+  border: dashed;
+}
+
+._5bXm4 {
+  background-color: #181818;
+}
+
+._71S8l {
+  text-decoration: underline;
+  background-color: #0a5380;
+}
