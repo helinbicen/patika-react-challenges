@@ -1,0 +1,225 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  font-weight: bold;
+  padding: 50px;
+  /* margin-bottom: 50px; */
+}
+
+.add-note {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: aqua; */
+  width: 100%;
+  height: 50vh;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+  
+  height: 100%;
+}
+
+.new-note {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 20px;
+  border: 10px solid black; 
+  background-color: #181818;
+  border: none;
+  height: 100px;
+  width: 500px;
+  
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  /* margin-left: 50px; */
+  /* color: red; */
+  opacity: 1; /* Firefox */
+}
+
+.colors-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.pink-button {
+  background-color: pink;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  display: none;
+}
+
+.icon.active {
+  display: block;
+}
+
+.purple-button {
+  background-color: purple;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.yellow-button {
+  background-color: yellow;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blue-button {
+  background-color: blue;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.green-button {
+  background-color: green;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.note {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  /* background-color: red; */
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.list-item {
+  /* margin-top: 50px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: black; */
+
+  /* width: 100%; */
+}
+
+.pink {
+  width: 200px;
+  height: 50px;
+  background-color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+}
+.purple {
+  width: 200px;
+  height: 50px;
+  background-color: purple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+}
+.blue {
+  width: 200px;
+  height: 50px;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+}
+.yellow {
+  width: 200px;
+  height: 50px;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+}
+.green {
+  width: 200px;
+  height: 50px;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+}
+
+.submit-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  /* border: none; */
+  /* font-size: 20px; */
+  cursor: pointer;
+  /* background-color: red; */
+}
+
+.search-note {
+  display: flex;
+  align-items: center;
+justify-content: center;
+}
+
+.search-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: 250px;
+  height: 50px;
+  background-color: #181818;
+
+}
+
+::placeholder {
+  color: white;
+}
