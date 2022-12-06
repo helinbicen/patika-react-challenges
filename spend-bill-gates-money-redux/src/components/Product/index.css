@@ -1,0 +1,108 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f1f2f6;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+}
+
+/* .products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+} */
+
+.product-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 326px;
+    height: 300px;
+    background-color: white;
+    font-size: 18px;
+}
+
+.product-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    height: 120px;
+}
+
+.product-name {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.product-price {
+    font-size: 20px;
+    color: #24c486;
+    margin-bottom: 20px;
+}
+
+.sell-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.sell-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f1f2f6!important;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    touch-action: manipulation;
+    width: 90px;
+    height: 40px;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.product-count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #fff!important;
+    cursor: pointer;
+    touch-action: manipulation;
+    width: 90px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid #b2bec3;
+    font-size: 16px;
+    color: #333;
+
+}
+
+.buy-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    touch-action: manipulation;
+    width: 90px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid #b2bec3;
+    color: #fff;
+    background: linear-gradient(180deg,#2ecc71,#1abc9c);
+    font-weight: 700;
+    font-size: 16px;
+}
